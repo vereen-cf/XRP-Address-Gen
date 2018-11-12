@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ripple Wallet Generator</title>
+    <script src="js/aes256.js"></script>
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <script src="js/lodash.js"></script>
+    <script src="js/ripple-0.17.9.js"></script>
+  </head>
+  <body>
+    <h2>Ripple Wallet Generator</h2>
+    <p><b>Ripple Address</b></p>
+    <input readonly="readonly" id="address" style="width: 300px;">
+    <p><b>Ripple Secret</b></p>
+    <input readonly="readonly" id="secret" style="width: 300px;">
+    <br>
+    <br>
+    <button onclick="newripple()">Generate</button>
+    <p>You may check the JavaScript console for all the addresses you've generated this session.</p>
+    <p><i>'tis the gift to be simple, 'tis the gift to be free</i></p>
+    
+    <script src="js/script.js"></script>
+  </body>
+</html>
